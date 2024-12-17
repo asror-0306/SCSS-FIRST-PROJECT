@@ -12,12 +12,10 @@ header {
             align-items: center;
             justify-content: space-between;
             height: 100px;
-            width: 50%;
+            width: 48%;
 
             .list-item a {
-                font-size: 16px;
-                font-weight: 600;
-                color: #ffffff;
+                @extend %menuStyle;
             }
 
             .list-item:nth-child(4) {
@@ -33,7 +31,7 @@ header {
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
-                    width: 85px;
+                    width: 90px;
                     background-color: transparent;
                     border: none;
                     outline: none;

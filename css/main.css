@@ -323,7 +323,7 @@ template {
 }
 
 #container {
-  max-width: 1250px;
+  max-width: 1220px;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -341,6 +341,13 @@ ul {
   list-style-type: none;
 }
 
+header nav .list .list-item a {
+  font-size: 16px;
+  font-family: "Work Sans", serif;
+  color: #ffffff;
+  font-weight: 600;
+}
+
 header {
   width: 100%;
 }
@@ -355,12 +362,7 @@ header nav .list {
   align-items: center;
   justify-content: space-between;
   height: 100px;
-  width: 50%;
-}
-header nav .list .list-item a {
-  font-size: 16px;
-  font-weight: 600;
-  color: #ffffff;
+  width: 48%;
 }
 header nav .list .list-item:nth-child(4) {
   width: 152px;
@@ -375,7 +377,7 @@ header nav .list .list-item:nth-child(4) button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 85px;
+  width: 90px;
   background-color: transparent;
   border: none;
   outline: none;
@@ -390,4 +392,150 @@ header nav .list .list-item:nth-child(4) button a {
 }
 header nav .list .list-item:nth-child(4):hover {
   opacity: 50%;
+}
+
+#intro {
+  width: 100%;
+  height: 704px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#intro .intro-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 544px;
+}
+#intro .intro-wrapper .left {
+  width: 48.6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 544px;
+}
+#intro .intro-wrapper .left .text {
+  width: 100%;
+  height: 347px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#intro .intro-wrapper .left .text h1 {
+  font-size: 67px;
+  font-family: "Work Sans", serif;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: capitalize;
+  line-height: 75px;
+  margin-top: 0;
+}
+#intro .intro-wrapper .left .text p {
+  font-family: "Work Sans", serif;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.786);
+  line-height: 30px;
+  text-transform: capitalize;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+#intro .intro-wrapper .left .btn {
+  background-color: #a259ff;
+  width: 224px;
+  height: 60px;
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+}
+#intro .intro-wrapper .left .btn button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#intro .intro-wrapper .left .btn button i {
+  font-size: 20px;
+  color: #ffffff;
+}
+#intro .intro-wrapper .left .btn button a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Work Sans", serif;
+}
+#intro .intro-wrapper .left .statistics {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 77px;
+  width: 100%;
+}
+#intro .intro-wrapper .left .statistics div {
+  width: 150px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#intro .intro-wrapper .left .statistics div h4 {
+  font-family: "Space Mono", monospace;
+  color: #ffffff;
+  font-size: 28px;
+}
+#intro .intro-wrapper .left .statistics div p {
+  font-family: "Work Sans", serif;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+#intro .intro-wrapper .right {
+  height: 510px;
+  width: 48.6%;
+}
+#intro .intro-wrapper .right .right-image {
+  background-image: url(../../assets/images/intro\ big\ image.png);
+  width: 100%;
+  height: 401px;
+  border-radius: 20px 20px 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#intro .intro-wrapper .right .right-bottom {
+  width: 100%;
+  height: 109px;
+  border-radius: 0 0 20px 20px;
+  background-color: #3b3b3b;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+}
+#intro .intro-wrapper .right .right-bottom .bottom-one {
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#intro .intro-wrapper .right .right-bottom .bottom-one h5 {
+  font-family: "Work Sans", serif;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+}
+#intro .intro-wrapper .right .right-bottom .bottom-one .animakid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 24px;
+  max-width: 120px;
+}
+#intro .intro-wrapper .right .right-bottom .bottom-one .animakid p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Work Sans", serif;
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
