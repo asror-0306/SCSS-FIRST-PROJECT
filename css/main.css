@@ -538,4 +538,122 @@ header nav .list .list-item:nth-child(4):hover {
   font-weight: 400;
   font-family: "Work Sans", serif;
   color: #ffffff;
+}
+
+#collection {
+  width: 100%;
+  height: 836px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#collection .collection-wrapper {
+  width: 100%;
+  height: 676px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#collection .collection-wrapper img:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: all 0.5s;
+}
+#collection .collection-wrapper .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 91px;
+}
+#collection .collection-wrapper .title h3 {
+  font-family: "Work Sans", serif;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 600;
+}
+#collection .collection-wrapper .title p {
+  font-family: "Work Sans", serif;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+#collection .collection-wrapper .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 525px;
+}
+#collection .collection-wrapper .cards .card {
+  height: 525px;
+  width: 31.4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#collection .collection-wrapper .cards .card .card-image {
+  background-image: url(../../assets/images/dog.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 330px;
+  border-radius: 20px 20px 0 0;
+  cursor: pointer;
+}
+#collection .collection-wrapper .cards .card .triple {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+}
+#collection .collection-wrapper .cards .card .triple img {
+  object-fit: cover;
+}
+#collection .collection-wrapper .cards .card .triple .num {
+  width: 100px;
+  height: 100px;
+  background-color: #a259ff;
+  border-radius: 20px;
+  display: grid;
+  place-items: center;
+}
+#collection .collection-wrapper .cards .card .triple .num h5 {
+  color: #ffffff;
+  font-family: "Space Mono", monospace;
+  font-weight: 600;
+  font-size: 24px;
+}
+#collection .collection-wrapper .cards .card .bottom {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#collection .collection-wrapper .cards .card .bottom h5 {
+  font-weight: 600;
+  font-family: "Work Sans", serif;
+  color: #ffffff;
+  font-size: 20px;
+}
+#collection .collection-wrapper .cards .card .bottom .who {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 24px;
+}
+#collection .collection-wrapper .cards .card .bottom .who p {
+  font-size: 16px;
+  font-family: "Work Sans", serif;
+  color: #ffffff;
+  font-weight: 400;
+  margin-right: 250px;
+}
+#collection .collection-wrapper .cards .card:hover {
+  transition: all 0.5s;
+  transform: scale(0.9);
 }/*# sourceMappingURL=main.css.map */
