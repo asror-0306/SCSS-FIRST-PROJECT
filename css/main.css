@@ -743,6 +743,178 @@ header nav .list .list-item:nth-child(4):hover {
   justify-content: center;
 }
 
+#discover {
+  width: 100%;
+  height: 780px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#discover .discover-wrapper {
+  height: 620px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#discover .discover-wrapper .head {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 91px;
+}
+#discover .discover-wrapper .head .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 91px;
+  width: 72.5%;
+}
+#discover .discover-wrapper .head .title h3 {
+  font-family: "Work Sans", serif;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 600;
+}
+#discover .discover-wrapper .head .title p {
+  font-family: "Work Sans", serif;
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+#discover .discover-wrapper .head .btn {
+  width: 187px;
+  height: 60px;
+  border: 2px solid #a259ff;
+  border-radius: 20px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+#discover .discover-wrapper .head .btn button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90px;
+}
+#discover .discover-wrapper .head .btn button i {
+  font-size: 20px;
+  color: #a259ff;
+}
+#discover .discover-wrapper .head .btn button a {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Work Sans", serif;
+  color: #ffffff;
+}
+#discover .discover-wrapper .cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 469px;
+}
+#discover .discover-wrapper .cards .card {
+  border-radius: 20px;
+  width: 31.4%;
+}
+#discover .discover-wrapper .cards .card .card-image {
+  background-image: url(../../assets/images/galaxy.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 296px;
+}
+#discover .discover-wrapper .cards .card .card-image:hover {
+  cursor: pointer;
+}
+#discover .discover-wrapper .cards .card .card-body {
+  background-color: #3b3b3b;
+  padding: 20px 30px 25px;
+  width: 100%;
+  height: 173px;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#discover .discover-wrapper .cards .card .card-body .top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+}
+#discover .discover-wrapper .cards .card .card-body .top h5 {
+  font-family: "Work Sans", serif;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+}
+#discover .discover-wrapper .cards .card .card-body .top .who {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 49%;
+  height: 24px;
+}
+#discover .discover-wrapper .cards .card .card-body .top .who p {
+  color: #ffffff;
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+}
+#discover .discover-wrapper .cards .card .card-body .bottom {
+  height: 43px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#discover .discover-wrapper .cards .card .card-body .bottom .price {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 43px;
+  width: 50%;
+}
+#discover .discover-wrapper .cards .card .card-body .bottom .price p:nth-child(1) {
+  color: #858584;
+  font-size: 14px;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+}
+#discover .discover-wrapper .cards .card .card-body .bottom .price p:nth-child(2) {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+}
+#discover .discover-wrapper .cards .card .card-body .bottom .bid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  height: 43px;
+  width: 50%;
+}
+#discover .discover-wrapper .cards .card .card-body .bottom .bid p:nth-child(1) {
+  color: #858584;
+  font-size: 14px;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+}
+#discover .discover-wrapper .cards .card .card-body .bottom .bid p:nth-child(2) {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+}
+
 #background {
   background-image: url(../../assets/images/NFT\ Highlight.png);
   background-repeat: repeat-y;
