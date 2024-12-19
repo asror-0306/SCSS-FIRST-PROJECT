@@ -573,7 +573,7 @@ header nav .list .list-item:nth-child(4):hover {
 }
 #collection .collection-wrapper .title p {
   font-family: "Work Sans", serif;
-  font-size: 24px;
+  font-size: 22px;
   color: #ffffff;
   font-weight: 400;
   text-transform: capitalize;
@@ -656,4 +656,98 @@ header nav .list .list-item:nth-child(4):hover {
 #collection .collection-wrapper .cards .card:hover {
   transition: all 0.5s;
   transform: scale(0.9);
+}
+
+#creators {
+  width: 100%;
+  height: 1085px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#creators .creators-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 925px;
+}
+#creators .creators-wrapper .head {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 91px;
+}
+#creators .creators-wrapper .head .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 91px;
+  width: 67%;
+}
+#creators .creators-wrapper .head .title h3 {
+  font-family: "Work Sans", serif;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 600;
+}
+#creators .creators-wrapper .head .title p {
+  font-family: "Work Sans", serif;
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+#creators .creators-wrapper .head .btn {
+  width: 247px;
+  height: 60px;
+  border: 2px solid #a259ff;
+  border-radius: 20px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+#creators .creators-wrapper .head .btn button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 145px;
+}
+#creators .creators-wrapper .head .btn button i {
+  font-size: 20px;
+  color: #a259ff;
+}
+#creators .creators-wrapper .head .btn button a {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Work Sans", serif;
+  color: #ffffff;
+}
+#creators .creators-wrapper .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  height: 774px;
+}
+#creators .creators-wrapper .cards .card {
+  background-color: #3b3b3b;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#background {
+  background-image: url(../../assets/images/NFT\ Highlight.png);
+  background-repeat: repeat-y;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  min-height: 660px;
 }/*# sourceMappingURL=main.css.map */
